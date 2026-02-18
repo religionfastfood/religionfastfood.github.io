@@ -40,27 +40,14 @@ function About(){
                                         <Tab.Pane eventKey="first">
                                             <h2 class="mb-4 mono">MY STORY</h2>
                                             <p> I'm creative and analytical with a passion for good design. Reskilled into IT from Hospitality in 2019. Work that has complexity, impact, and social or humanitarian value keeps me engaged, as will ambitious and curious people.</p>
-                                            <p>AUS-{'>'}NZ-{'>'}USA. Lost the accent, unfortunately. Kicked all my vices except for coffee. My friends and family would not be surprised if I went to live in a monastery. In my free time you can find me: working on art (writing, music, drawing, painting), running, or playing video games.    
-                                                Cleveland, OH is home but relocating to Phoenix, AZ in late 2021.</p>
-                                            <h3 class="mb-4 mono"> I'm currently looking for a junior-level front-end/full-stack web developer role. </h3>
+                                            <p>AUS-{'>'}NZ-{'>'}USA. Lost the accent, unfortunately.</p>
+                                            <h3 class="mb-4 mono"> I'm currently looking for a backend or full stack developer role. </h3>
                                             <p>Enjoy the site!</p>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="second">
                                             <h2 class="mb-4 mono">SKILLS</h2>
-                                            <p>I have two years' experience developing software in an enterprise environment. These are some of the skills I'm looking to use and improve upon, but I like to always be learning and can pick up new technologies easily. </p>
+                                            <p>I have over 3 years experience developing software in an enterprise environment. These are some of the skills I'm looking to use and improve upon, but I like to always be learning and can pick up new technologies easily. </p>
                                             <div class="row mt-5">
-                                                <div class="col-lg-6">
-                                                    <div class="progress-wrap">
-                                                        <h3 class="mono">HTML/CSS</h3>
-                                                        <ProgressBar now={100}></ProgressBar>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="progress-wrap">
-                                                        <h3 class="mono">React/Vue</h3>
-                                                        <ProgressBar now={100}></ProgressBar>
-                                                    </div>
-                                                </div>
                                                 <div class="col-lg-6">
                                                     <div class="progress-wrap">
                                                         <h3 class="mono">C#/.NET</h3>
@@ -75,13 +62,19 @@ function About(){
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="progress-wrap">
-                                                        <h3 class="mono">SQL</h3>
+                                                        <h3 class="mono">Relational Databases</h3>
                                                         <ProgressBar now={100}></ProgressBar>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="progress-wrap">
-                                                        <h3 class="mono">Automation</h3>
+                                                        <h3 class="mono">RESTful Microservices</h3>
+                                                        <ProgressBar now={100}></ProgressBar>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="progress-wrap">
+                                                        <h3 class="mono">Stream & Batch Processing</h3>
                                                         <ProgressBar now={100}></ProgressBar>
                                                     </div>
                                                 </div>
@@ -92,12 +85,20 @@ function About(){
                                                 <div class="cold-md-12">
                                                     <div class="resume-wrap d-flex align-items-stretch">
                                                         <div class="w-100">
+                                                            <h2 class="mt-3 mono">SOFTWARE ENGINEER</h2>
+                                                            <span class="date">2021 - 2024</span>
+                                                            <span class="position"><BriefcaseOutline height="15px" width="15px"/><a class="link" href="https://nri-na.com/">NRI North America</a></span>
+                                                            <div class="mt-2">
+                                                            <p>Technologies used: Java, C#, Kotlin, SQL, Apache Kafka</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="resume-wrap d-flex align-items-stretch">
+                                                        <div class="w-100">
                                                             <h2 class="mt-3 mono">TEST ENGINEER</h2>
                                                             <span class="date">2020 - Present</span>
                                                             <span class="position"><BriefcaseOutline height="15px" width="15px"/><a class="link" href="http://hyland.com/en">Hyland Software</a></span>
                                                             <div class="mt-2">
-                                                            <p>Responsible for managing and contributing to a suite of {'>'}300 automated UI tests for our Office and Outlook add-ins. Improved test coverage and test stability. Designed console app to assist with test data generation.</p>
-                                                            <p>Contributed to back-end feature work and solved/implemented bug-fixes on a regular basis. Regularly took on work outside of assigned role in order to learn and improve skills and knowledge. Participated in all stages of the SDLC.</p>
                                                             <p>Technologies used: C#, .NET, React, Javascript, Typescript, MSSQL, Selenium, WinAppDriver</p>
                                                             </div>
                                                         </div>
