@@ -96,7 +96,7 @@ function About(){
                                                     <div class="resume-wrap d-flex align-items-stretch">
                                                         <div class="w-100">
                                                             <h2 class="mt-3 mono">TEST ENGINEER</h2>
-                                                            <span class="date">2020 - Present</span>
+                                                            <span class="date">2020 - 2021</span>
                                                             <span class="position"><BriefcaseOutline height="15px" width="15px"/><a class="link" href="http://hyland.com/en">Hyland Software</a></span>
                                                             <div class="mt-2">
                                                             <p>Technologies used: C#, .NET, React, Javascript, Typescript, MSSQL, Selenium, WinAppDriver</p>
@@ -114,14 +114,15 @@ function About(){
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="resume-wrap d-flex align-items-stretch">
+                                                            <Button variant="light" size="lg" onClick={saveFile}>Resume</Button>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <Button variant="light" size="lg" onClick={saveFile}>Resume</Button>
                                         </Tab.Pane>
                                     </Tab.Content>
                             </Tab.Container>
                         </div>
-
                     </div>
                 </div>
             </div>
